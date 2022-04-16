@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms</title> </head>
+    <body><form>
+        <label>first name</label>
+        <input tpye="text" id="demo"><br>
+        <label> surname</label>
+        <input type="text"><br>
+        <label>email</label>
+        <input type="email"><br>
+        <label>password</label>
+        <input type="password" placeholder="enter ur password"><br>
+        <label>phone</label>
+        <input type="color"><br>
+        <input type="radio" name="bike">
+        <label>cbr</label><br>
+        <input type="radio" name="bike">
+        <label>s100rr</label><br>
+        <input type="radio" name="bike">
+        <label>zx10r</label><br>
+        <input type="checkbox">
+        <label>i have bike</label><br>
+        <input type="checkbox">
+        <label>i have car</label><br>
+        <select name="cars">
+            <option value="rollsroyce">rollsroyce</option>
+            <option value="bmw">bmw</option>
+            
+
+        </select>
+        <button onclick="myfunction()">submit</button>
+
+    </form>
+    <p id="ibad"></p>
+<script>
+    function myfunction(){
+        let x=document.getElementById("demo").value;
+        document.getElementById("ibad").innerHTML=x;
+
+    }
+</script>
+</BODY>
+</html>

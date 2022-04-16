@@ -1,0 +1,12 @@
+let a="abcdefghijklomnpqrstuvwxyz";
+console.log(a.length);
+b=a.slice(2,25);
+console.log(b);
+c=a.slice(-13,-5);
+console.log(c);
+d=a.substring(5,10);
+console.log(d);
+i=a.substr(5,5);
+console.log(i);
+m=a.replace("abc","ABC");
+console.log(m);

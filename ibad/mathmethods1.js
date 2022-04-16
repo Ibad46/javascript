@@ -1,0 +1,10 @@
+let a=20.4;
+console.log(a.toFixed());
+console.log(Math.ceil(a));
+console.log(Math.round(a));
+console.log(Math.floor(a));
+console.log(Math.trunc(a));
+console.log(Math.pow(2,2));
+console.log(Math.sqrt(2));
+let b=Math.floor(Math.random()*20)+1;
+console.log(b);

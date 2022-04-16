@@ -1,0 +1,12 @@
+let name = "kareena gohil";
+console.log(name.length);
+console.log(name.slice(0,7));
+console.log(name.slice(-13,-7));
+console.log(name.substring(0,7));
+console.log(name.substr(7,5));
+console.log(name.replace("gohil","Gohil"));
+console.log(name.indexOf("gohil"));
+console.log(name.startsWith("kareena"));
+console.log(name.startsWith("gohil",7));
+console.log(name.search("kareena"));
+console.log(name.endsWith("l"));

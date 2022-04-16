@@ -1,0 +1,39 @@
+h1.fukat{
+    text-align: center;
+    color: blanchedalmond;
+    border: 2px solid burlywood;
+}
+h1.aisi{
+    text-align: end;
+    color: blue;
+    border: 2px dotted burlywood;
+}
+p.blahh{
+    text-align: center;
+    font-size: 50px;
+    color: chocolate;
+    background-color: lavenderblush;
+    border: 15px double burlywood;
+}
+p.hehe{
+    text-align: center;
+    font-size: 50px;
+    color:gold;
+    border: 2px solid burlywood;
+}
+div{
+    background-color: bisque;
+    text-align: center;
+
+}
+p{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color: azure;
+}
+body{
+    background-image: url("coffee-icon.png");
+    background-repeat: no-repeat;
+}
